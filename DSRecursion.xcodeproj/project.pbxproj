@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C6D2B1521C27775E0006BA2C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6D2B1511C27775E0006BA2C /* main.cpp */; };
+		C6D2B15E1C2777950006BA2C /* RecursionMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C6D2B15C1C2777950006BA2C /* RecursionMain.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,14 @@
 
 /* Begin PBXFileReference section */
 		C6D2B14E1C27775E0006BA2C /* DSRecursion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DSRecursion; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6D2B1511C27775E0006BA2C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C6D2B1581C2777950006BA2C /* MatchedParen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchedParen.h; sourceTree = SOURCE_ROOT; };
+		C6D2B1591C2777950006BA2C /* NonAttackingQueenPlacement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonAttackingQueenPlacement.h; sourceTree = SOURCE_ROOT; };
+		C6D2B15A1C2777950006BA2C /* PalindromePartitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PalindromePartitioning.h; sourceTree = SOURCE_ROOT; };
+		C6D2B15B1C2777950006BA2C /* PermutationGenerate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PermutationGenerate.h; sourceTree = SOURCE_ROOT; };
+		C6D2B15C1C2777950006BA2C /* RecursionMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RecursionMain.cpp; sourceTree = SOURCE_ROOT; };
+		C6D2B15D1C2777950006BA2C /* SubSetofCertainSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubSetofCertainSize.h; sourceTree = SOURCE_ROOT; };
+		C6D2B15F1C2777CC0006BA2C /* PowerSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerSet.h; sourceTree = SOURCE_ROOT; };
+		C6D2B1601C2777CC0006BA2C /* TowerOfHanoi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerOfHanoi.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +64,14 @@
 		C6D2B1501C27775E0006BA2C /* DSRecursion */ = {
 			isa = PBXGroup;
 			children = (
-				C6D2B1511C27775E0006BA2C /* main.cpp */,
+				C6D2B15F1C2777CC0006BA2C /* PowerSet.h */,
+				C6D2B1601C2777CC0006BA2C /* TowerOfHanoi.h */,
+				C6D2B1581C2777950006BA2C /* MatchedParen.h */,
+				C6D2B1591C2777950006BA2C /* NonAttackingQueenPlacement.h */,
+				C6D2B15A1C2777950006BA2C /* PalindromePartitioning.h */,
+				C6D2B15B1C2777950006BA2C /* PermutationGenerate.h */,
+				C6D2B15C1C2777950006BA2C /* RecursionMain.cpp */,
+				C6D2B15D1C2777950006BA2C /* SubSetofCertainSize.h */,
 			);
 			path = DSRecursion;
 			sourceTree = "<group>";
@@ -118,7 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6D2B1521C27775E0006BA2C /* main.cpp in Sources */,
+				C6D2B15E1C2777950006BA2C /* RecursionMain.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
